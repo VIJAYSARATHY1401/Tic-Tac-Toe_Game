@@ -53,7 +53,6 @@ const App1 = () => {
       >
         Start new Game
       </button>
-      <div className="bg-balls" />
     </div>
   );
 };

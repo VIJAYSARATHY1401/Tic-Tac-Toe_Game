@@ -143,36 +143,6 @@ button:hover {
   }
 }
 
-.bg-balls {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  z-index: -1;
-}
-
-.bg-balls:before,
-.bg-balls:after {
-  content: "";
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-}
-
-.bg-balls:before {
-  background-color: var(--orange);
-  right: -75px;
-  bottom: -75px;
-}
-
-.bg-balls:after {
-  background-color: var(--green);
-  top: -75px;
-  left: -75px;
-}
 body {
   font-family: "Roboto", sans-serif;
   padding: 0;
@@ -338,31 +308,6 @@ button:hover {
   }
 }
 
-.bg-balls {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  z-index: -1;
-}
-
-.bg-balls:before,
-.bg-balls:after {
-  content: "";
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-}
-
-.bg-balls:before {
-  background-color: #ffc72a;
-  right: -75px;
-  bottom: -75px;
-}
-
 @media screen and (min-width: 476px) {
   .bg-balls:before {
     width: 220px;
@@ -370,12 +315,6 @@ button:hover {
     right: -110px;
     bottom: -110px;
   }
-}
-
-.bg-balls:after {
-  background-color: #12e177;
-  top: -75px;
-  left: -75px;
 }
 
 @media screen and (min-width: 476px) {
